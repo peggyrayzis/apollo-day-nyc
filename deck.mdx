@@ -1,23 +1,191 @@
-import { Head } from 'mdx-deck'
+import { Head, Appear } from 'mdx-deck'
+import { Split } from 'mdx-deck/layouts'
 
+import { FullScreenBackground, Title, Bio, FullScreen } from './components'
 export { default as theme } from './theme'
 
 <Head>
-  <title>Presentation Title</title>
+  <title>Apollo Day NYC by @peggyrayzis and @jbaxleyiii</title>
+  <link href="https://fonts.googleapis.com/css?family=Heebo:300,800" rel="stylesheet"/>
 </Head>
 
-# Hello
+<FullScreenBackground src="./img/apollo-background.png">
+  <Title style={{paddingTop: '150px'}}>Ask the experts!</Title>
+</FullScreenBackground>
+
+---
+export default FullScreen
+
+<div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', height: '100%' }}>
+  <Bio photo="./img/peggy.jpg" twitter="@peggyrayzis" title="Engineering Manager" />
+  <Bio photo="./img/james.jpg" twitter="@jbaxleyiii" title="Tech Lead" />
+</div>
+---
+
+# The Apollo platform helps product teams seamlessly collaborate.
 
 ---
 
-## Edit this file
-
-To create your presentation
-
-```notes
-- Create speaker notes in fenced code blocks
-```
+# What is the<br/>Apollo platform?
 
 ---
 
-<https://github.com/jxnblk/mdx-deck>
+- Apollo is a platform for running a graph in production 🚀
+- Two industry leading runtime libraries
+- Developer tooling that fits your workflow
+
+---
+
+<div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', height: '100%' }}>
+  <Bio photo="./img/peggy.jpg" twitter="Frontend Dev" />
+  <img src="./img/heart.png" style={{width: '300px', margin: '40px'}} />
+  <Bio photo="./img/james.jpg" twitter="Backend Dev" />
+</div>
+
+---
+
+# How do I manage state in my React app?
+
+---
+
+# How do I easily fetch data from multiple sources?
+
+---
+
+# How can I use code splitting to keep my bundle size small?
+
+---
+
+# Demo #1:
+## Modern state management<br/>with Apollo Client 🚀
+
+---
+
+# Recap:
+- One source of truth for all of your data
+- Supports essential features like pagination & code splitting
+- Apollo is your data layer for React apps
+
+---
+
+export default Split
+
+![](./img/puppy1.png)
+
+# Q&A 🙋
+
+---
+
+# What do I need from my graph server?
+
+---
+
+# How do I connect my data to my schema?
+
+---
+
+# How do I make<br/>my app fast?
+
+---
+
+# Is my server working?
+
+---
+
+# Demo #2:
+## Apollo Server: All the features you need from prototype to production 📦
+
+---
+
+# Recap:
+- Schema first development
+- Built in structure to get data plumbed
+- Designed for a pit of ~~success~~ speed
+
+---
+
+export default Split
+
+![](./img/puppy2.png)
+
+# Q&A 🙋🏾‍♂️
+
+---
+
+# How do I leverage GraphQL's static typing in my workflow?
+
+---
+
+# Will changes on the server break my client?
+
+---
+
+# How do I integrate Apollo with tools I already use like GitHub and VSCode?
+
+---
+
+# Demo #3:
+## Apollo developer tooling enhances your daily workflow 🛠
+
+---
+
+# Recap:
+- Apollo tooling leverages GraphQL's strong type system
+- Schema and query validation is essential
+- The platform works best when you use it together
+
+---
+
+export default Split
+
+![](./img/puppy3.png)
+
+# Q&A 🙋🏻‍♂️
+
+---
+
+# What risks do I take running a graph API?
+
+---
+
+# Who do I want to give access to my graph?
+
+---
+
+# How can I<br/>secure my graph?
+
+---
+
+# Demo #4:
+## Apollo's query registry<br/>keeps your API secure 🔒
+
+---
+
+# Recap:
+- GraphQL endpoints should be secured
+- Security shouldn't take away the benefits of a graph
+- Publishing to the Apollo operation registry is the "safest" way to do it
+
+---
+
+export default Split
+
+![](./img/puppy4.png)
+
+# Q&A 🙋🏾
+
+---
+
+<FullScreenBackground src="./img/background.jpg">
+  <Title style={{fontSize: '4em'}}>Collaborate seamlessly and ship apps faster<br/>with Apollo 🚀</Title>
+</FullScreenBackground>
+
+---
+
+export default Split
+
+![](./img/puppy5.png)
+
+# Thanks! 👋
+## @peggyrayzis
+## @jbaxleyiii
