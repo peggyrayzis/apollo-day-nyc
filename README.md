@@ -1,7 +1,7 @@
 
-# mdx-deck basic template
+# Apollo Day NYC
 
-This was generated with [mdx-deck][]'s `npm init deck` command.
+## Ask the Experts by @peggyrayzis & @jbaxleyiii
 
 ## Development
 
